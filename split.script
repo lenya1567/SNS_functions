@@ -1,1 +1,11 @@
-
+output(string_rray)
+const(stdin input)
+const(stdout return)
+new(result string_array)
+new(text string)
+for(e in result)
+  if (e == "") (e == "")
+    add(result text)
+    set(text "")
+  else
+    add(text e)

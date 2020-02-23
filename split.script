@@ -1,11 +1,12 @@
-output(string_rray)
+output(string_array)
 const(stdin input)
 const(stdout return)
 new(result string_array)
 new(text string)
-for(e in result)
-  if (e == "") (e == "")
+for(e in result) {
+  if (e == "") (text != "") {
     add(result text)
     set(text "")
-  else
     add(text e)
+  }
+}
